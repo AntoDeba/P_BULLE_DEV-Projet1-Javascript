@@ -1,12 +1,13 @@
 // @ts-check
 
-// TODO : déclarer la constante de conversion entre les km/h et les m/s
+// constante de conversion entre les km/h et les m/s
+const tauxConversionMsToKmH = 3.6;
 
 /**
  * Convertit une vitesse de km/h en m/s.
  */
 export function kmhToMs(speedKmh) {
-  // TODO
+  return speedKmh / tauxConversionMsToKmH;
 }
 
 /**
