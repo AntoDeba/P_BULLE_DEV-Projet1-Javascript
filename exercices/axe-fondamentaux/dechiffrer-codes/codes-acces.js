@@ -16,11 +16,7 @@ export function convertCode(value) {
  * @returns {boolean} retourne un boolean en fonction de l'égalité souple
  */
 export function sameCodeLoose(value1, value2) {
-  if (value1 == value2) {
-    return true;
-  } else {
-    return false;
-  }
+  return value1 == value2;
 }
 
 /**
@@ -30,11 +26,7 @@ export function sameCodeLoose(value1, value2) {
  * @returns {boolean} retourne un boolean en fonction de l'égalité stricte
  */
 export function sameCodeStrict(value1, value2) {
-  if (value1 === value2) {
-    return true;
-  } else {
-    return false;
-  }
+  return value1 === value2;
 }
 
 /**
@@ -43,11 +35,7 @@ export function sameCodeStrict(value1, value2) {
  * @returns {boolean}  Vrai si le code est pair
  */
 export function isEvenCode(code) {
-  if (code % 2 === 0) {
-    return true;
-  } else {
-    return false;
-  }
+  return code % 2 === 0;
 }
 
 /**
