@@ -2,6 +2,7 @@
 
 // TODO : importer calculateEnergy et multiplyEnergy depuis energie.js
 // TODO : importer formatResult depuis messages.js
+import { calculateEnergy, multiplyEnergy } from "./energie";
 
 /**
  * Crée une synthèse à partir d'une énergie de base et d'un bonus.
